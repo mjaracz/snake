@@ -1,0 +1,42 @@
+.main__board {
+    width: 500px;
+    height: 500px;
+    display: block;
+    position: absolute;
+    top: 80px;
+    left: 33%;
+    z-index: 100;
+    border-radius: 3px;
+    margin:0 auto;
+    background-color: #cf5202;
+}
+.main__gameOver {
+    display: flex;
+    position: absolute;
+    top: 80px;
+    left: 33%;
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    background-color: #cf5202;
+    border-radius: 3px;
+    margin:0 auto;
+}
+.gameOver__message {
+    width: 200px;
+    font-family: 'Ubuntu Mono', monospace;
+    text-align: center;
+    color: #061429;
+}
+
+@media screen and (max-width: 1245px) {
+    .main__board {
+        position: unset;
+        margin: 20px auto;
+    }
+    .main__gameOver {
+        position: unset;
+        margin: 20px auto;
+    }
+}

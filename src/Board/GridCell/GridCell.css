@@ -1,0 +1,16 @@
+.main__gridcell {
+    float: left;
+    width: 25px;
+    height: 25px;
+    outline: 1px solid #175b59;
+}
+.main__gridcell--head {
+    background-color: #06182e;
+}
+.main__gridcell--tail {
+    background-color: #195bb0;
+}
+.main__gridcell--food {
+    background-color: #114f4d;
+}
+
